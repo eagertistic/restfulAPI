@@ -1,0 +1,45 @@
+{
+  "name": "blogger-platform",
+  "version": "1.0.0",
+  "description": "A blogger platform api ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eagertistic/Blogging-Platform-API.git"
+  },
+  "keywords": [
+    "API",
+    "mongoose",
+    "mongoDB",
+    "nodejs",
+    "blog",
+    "RESTful",
+    "CRUD"
+  ],
+  "author": "jack_peng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eagertistic/Blogging-Platform-API/issues"
+  },
+  "homepage": "https://github.com/eagertistic/Blogging-Platform-API#readme",
+  "dependencies": {
+    "@fastify/mongodb": "^9.0.1",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "fastify": "^5.0.0",
+    "fastify-plugin": "^5.0.1",
+    "mongoose": "^8.7.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.12.0",
+    "eslint": "^9.12.0",
+    "eslint-plugin-react": "^7.37.1",
+    "globals": "^15.11.0",
+    "nodemon": "^3.1.7"
+  }
+}
